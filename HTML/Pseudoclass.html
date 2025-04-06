@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo-Class Demo</title>
+  <style>
+    /* :hover - changes background when hovered */
+    button:hover {
+      background-color: lightgreen;
+    }
+
+    /* :first-child - first child of parent */
+    .box p:first-child {
+      color: blue;
+    }
+
+    /* :last-child - last child of parent */
+    .box p:last-child {
+      color: red;
+    }
+
+    /* :nth-child(2) - second child regardless of type */
+    .box *:nth-child(2) {
+      font-style: italic;
+    }
+
+    /* :first-of-type - first <p> in parent */
+    .box p:first-of-type {
+      background-color: rgb(198, 164, 42);
+    }
+
+    /* :last-of-type - last <p> in parent */
+    .box p:last-of-type {
+      border: 1px dashed green;
+    }
+
+    /* :nth-of-type(2) - second <p> among siblings */
+    .box p:nth-of-type(2) {
+      font-size: 18px;
+    }
+
+    /* :checked - if checkbox/radio is selected */
+    input:checked + label {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>:hover Example</h2>
+  <button>Hover Me!</button>
+
+  <h2>Child Pseudo-classes Example</h2>
+  <div class="box">
+    <p>1st Paragraph (first-child & first-of-type)</p>
+    <span>This is a span (2nd child)</span>
+    <p>2nd Paragraph (nth-of-type)</p>
+    <p>3rd Paragraph (last-child & last-of-type)</p>
+  </div>
+
+  <h2>:checked Example</h2>
+  <input type="checkbox" id="chk1">
+  <label for="chk1">Check me</label><br>
+
+  <input type="radio" name="r" id="r1">
+  <label for="r1">Option A</label>
+
+  <input type="radio" name="r" id="r2">
+  <label for="r2">Option B</label>
+
+</body>
+</html>

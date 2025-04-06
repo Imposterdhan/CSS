@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+
+            background-color: rgb(52, 37, 37);
+
+
+        }
+
+        h1 {
+
+            color: white;
+            text-align: center;
+            text-shadow: 5px 5px 5px rgb(17, 1, 1);
+
+        }
+
+        #flex-container {
+
+            height: 500px;
+            width: 80%;
+            background-color: rgb(186, 37, 37);
+            position: absolute;
+            left: 140px;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            align-items: center;
+            flex-wrap: wrap-reverse;
+            /* justify-content: space-evenly; */
+
+        }
+
+        .items {
+
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            border: 2px solid rgb(26, 128, 107);
+            color: rgb(177, 209, 73);
+
+
+        }
+
+        #flex3 {
+
+            order: 1;
+
+
+        }
+
+        #sub {
+
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            position: relative;
+            left: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>flex-box in css</h1>
+
+    <div id="flex-container">
+
+        <div id="flex1" class="items"><img src="beag.png" alt="" height="500px" width="500px"></div>
+        <div id="sub">
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia natus animi accusamus magni
+                ullam voluptatum, illum necessitatibus delectus aperiam est officia exercitationem, porro quibusdam
+                culpa alias obcaecati sit praesentium quidem dolorum! Accusantium debitis excepturi enim repellendus
+                facere autem eius cupiditate! Vitae, molestias? Vel officiis, corporis dicta quisquam sint quos?Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt nam aperiam quaerat veniam quas laborum
+                labore architecto cupiditate. Magni libero nam quibusdam nobis mollitia fugiat a perferendis minima sunt
+                aliquid. Quidem eligendi porro cum vel nisi inventore tempora perferendis, consectetur, velit quis
+                molestias cumque non natus? Neque, facere autem?</p>
+
+
+        </div>
+
+        <!-- <div id="flex2" class="items">flexbox2</div>
+        <div id="flex3" class="items">flexbox3</div>
+        <div id="flex4" class="items">flexbox4</div>
+        <div id="flex5" class="items">flexbox5</div>
+        <div id="flex6" class="items">flexbox6</div> -->
+
+    </div>
+
+</body>
+
+</html>

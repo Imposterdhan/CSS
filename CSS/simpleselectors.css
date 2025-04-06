@@ -1,0 +1,33 @@
+body{
+
+
+    background-color: rgb(184, 110, 25);
+}
+
+#demo{
+
+    color: blueviolet;
+
+}
+
+*{
+    color: cadetblue;
+}
+
+aside,footer,section{
+
+    color: blue;
+}
+
+aside{
+    color: red;
+}
+
+
+.demo2{
+    color: rgb(31, 19, 3);
+}
+h1{
+
+     color: plum;
+}

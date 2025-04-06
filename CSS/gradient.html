@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+        body{
+            background-color: aqua;
+        }
+        #lineargradient{
+            display: flex;
+             justify-content: space-around;
+      align-items: center;
+
+        }
+
+#linear1{
+
+
+      height: 300px;
+      width: 300px;
+      background-color: hotpink;
+      background-image: linear-gradient(to bottom right,red 0%,red 25%,yellow 35%,yellow 50%);
+      background-image: repeating-linear-gradient(to top right,black
+      0%, black 5%,white 5%,white 5%,white 20%);
+      display: flex;
+     
+      
+           
+}
+
+#linear2{
+
+
+height: 300px;
+width: 300px;
+/* background-color: rgb(111, 28, 70); */
+background: radial-gradient(blue ,red, green);
+
+     
+}
+
+#linear3{
+
+
+height: 300px;
+width: 300px;
+background-color: rgb(110, 163, 18);
+background-image:conic-gradient(blue, red, green);
+
+     
+}
+
+#linear4{
+
+
+height: 300px;
+width: 300px;
+/* background-color: rgb(117, 67, 234); */
+background-image:repeating-radial-gradient(blue, red, green);
+
+     
+}
+
+#linear5{
+
+
+height: 300px;
+width: 300px;
+
+background-image:linear-gradient(orange 0%, orange 33.3%,white 33.3%, white 66.6%,green 66%);
+
+
+
+     
+}
+#chakra{
+
+    height: 100px;
+    width: 100px;
+    background-image:repeating-conic-gradient(blue 0%,blue 2%,white 2%,white 4%);
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left:120px;
+}
+
+     </style>
+   
+
+
+
+</head>
+<body>
+
+
+    <h1>gradiant</h1>
+
+    <hr>
+
+    <h2>linear gradient</h2>
+
+    <div id="lineargradient">
+
+        <div id="linear1"></div>
+        <div id="linear2"></div>
+        <div id="linear3"></div>
+        <div id="linear4"></div>
+        <br>
+        <div id="linear5">
+            <div id="chakra"></div>
+        </div>
+        
+
+    </div>
+
+    
+</body>
+</html>

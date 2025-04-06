@@ -1,0 +1,75 @@
+
+
+#parent{
+
+    color: rgb(210, 227, 142);
+    background-color: rgb(78, 46, 8);
+
+    
+    height: 800px;
+    width: 800px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+   
+
+}
+
+#child1{
+
+    height: 600px;
+       width: 600px;
+       display: flex;
+       align-items:center;
+       justify-content: space-around;
+      
+    color: rgb(19, 22, 3);
+    background-color: rgb(163, 140, 111);
+
+}
+#child2{
+
+    height: 300px;
+       width: 300px;
+       display: flex;
+       align-items:center;
+       justify-content: space-around;
+    color: rgb(19, 22, 3);
+    background-color: rgb(96, 54, 174);
+
+}
+#child3{
+
+    height: 150px;
+       width: 150px;
+       display: flex;
+       align-items:center;
+       justify-content: space-around;
+    color: rgb(19, 22, 3);
+    background-color: rgb(68, 149, 46);
+
+}
+
+#child4{
+
+    height: 100px;
+       width: 100px;
+       display: flex;
+       align-items:center;
+       justify-content: space-around;
+    color: rgb(19, 22, 3);
+    background-color: rgb(39, 92, 125);
+
+}
+
+#child5{
+
+    height: 30px;
+       width: 30px;
+       display: flex;
+       align-items:center;
+       justify-content: space-around;
+    color: rgb(19, 22, 3);
+    background-color: rgb(155, 60, 5);
+
+}

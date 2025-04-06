@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <center>
+        <h1>FORMS IN HTML</h1>
+
+        <br>
+        <br><br>
+        <fieldset>
+            <legend>Enter the details</legend>
+            <table>
+                <form action="" autocomplete="on" method="post">
+
+
+                       <fieldset>
+                        <tr>
+                            <td>
+                                <label for="shoe">shoes</label>
+                            </td>
+
+                            <td>
+                                <input list="shoes" name="shoe" >
+                                <select name="tech" id="shoes">
+                                    <option value="puma"></option>
+                                    <option value="hrx"></option>
+                                    <option value="adidas"></option>
+                                    <option value="abibas"></option>
+                                </select>
+                            </td>
+                        </tr>
+                       </fieldset>
+
+
+                    <!-- image  -->
+
+                    <tr>
+                        <td>
+                            <label for="">profile</label>
+                        </td>
+
+                        <td>
+
+                            <input type="image" name="profile"
+                                src="https://tse1.mm.bing.net/th?id=OIP.zgiDOfpjSb5jqL9bSPKK8QHaD8&pid=Api&P=0&h=180"
+                                height="50px" width="50px" style="border-radius: 40px;">
+                        </td>
+                    </tr>
+
+                    <!-- username  -->
+                    <tr>
+                        <td>
+                            <label for="user"  required>UserName</label>
+                        </td>
+                        <td>
+                            <input id="user" placeholder="username" required name="myname"></input>
+                        </td>
+                    </tr>
+                    <!-- password  -->
+                    <tr>
+                        <td>
+                            <label for="pass" placeholder="username">Password</label>
+                        </td>
+                        <td>
+                            <input id="pass" placeholder="password" type="password" required name="myname"></input>
+
+
+                        </td>
+
+                    </tr>
+
+
+                    <!-- email  -->
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input for="" id="email" placeholder="email" type="email" required name="password"></input>
+
+
+                        </td>
+
+                    </tr>
+
+                    <!-- date and time  -->
+                    <tr>
+                        <td>
+                            <label for="date">DOB</label>
+                        </td>
+                        <td>
+                            <input type="date" name="date" required data-="data"></input>
+
+
+                        </td>
+                    </tr>
+                    <!-- //gender -->
+
+                    <tr>
+                        <td>
+                            <label for="">Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male" required>Male
+                            <input type="radio" name="gender" value="female" required> Female
+                            <input type="radio" name="gender" value="others" required>others
+
+                        </td>
+                    </tr>
+
+
+                    <!-- //dropdown -->
+
+
+                    <tr>
+                        <td>
+                            <label for="">Technologies</label>
+                        </td>
+                        <td>
+
+                            <select name="technology" id="tech">
+                                <option value="">HTML</option>
+                                <option value="">CSS</option>
+                                <option value="">JS</option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+                    <!-- checkbox -->
+
+                    <tr>
+
+                        <td>
+                            <label for="">sports</label>
+                        </td>
+
+                        <td>
+                            <input type="checkbox" name="sports1" value="cricket">cricket
+                            <input type="checkbox" name="sports2" value="hockey">hockey
+                            <input type="checkbox" name="sports3" value="football">football
+
+                        </td>
+
+
+                    </tr>
+
+
+
+
+                    <!-- fileupload -->
+
+
+                    <tr>
+
+
+                        <td>
+                            <label for="file">upload the file</label>
+                        </td>
+
+                        <td>
+                            <input type="file" name="file" id="file">
+
+                        </td>
+                    </tr>
+
+                    <!-- number -->
+
+                    <tr>
+                        <td>
+
+                            <label for="num">number</label>
+                        </td>
+
+                        <td>
+                            <input type="number" id="num" name="number" placeholder="enter no." minlength="0"
+                                maxlength="10" require>
+
+                        </td>
+                    </tr>
+
+                    <!-- range -->
+                    <tr>
+
+                        <td>
+                            <label for="">range</label>
+                        </td>
+                        <td>
+                            <input type="range">
+                        </td>
+                    </tr>
+
+                    <!-- hidden -->
+
+                    <tr>
+
+                        <td>
+                            <label for="">hidden</label>
+                        </td>
+                        <td>
+                            <input type="hidden">
+                        </td>
+
+
+                    </tr>
+
+
+                    <!-- color -->
+
+                    <tr>
+                        <td>
+                            <label for="">color</label>
+                        </td>
+                        <td>
+
+                            <input type="color">
+                        </td>
+                    </tr>
+
+                    <!-- autofocus  and readonly-->
+                    <tr>
+                        <td>
+                            <label for="text">autofocus</label>
+                        </td>
+
+                        <td>
+                            <input type="text" readonly value="dhanu" autofocus>
+                        </td>
+                    </tr>
+
+
+                    <!-- search -->
+
+                    <tr>
+                        <td>
+                            <button type="submit">search</button>
+                        </td>
+
+                        <td>
+                            <input type="search">
+                        </td>
+                    </tr>
+
+                    <!-- url -->
+
+                    <tr>
+
+                        <td> <label for="search">search for label</label></td>
+
+                        <td><input type="url" placeholder="search....." id="search" url="search"></td>
+                    </tr>
+
+
+
+
+
+
+                    <!-- login -->
+
+                    <tr>
+
+                        <td> <button>login</button></td>
+
+                        <td><button>cancel</button></td>
+                    </tr>
+
+
+                </form>
+
+
+            </table>
+        </fieldset>
+    </center>
+
+</body>
+
+</html>

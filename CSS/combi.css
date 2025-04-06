@@ -1,0 +1,41 @@
+body{
+
+    background-color: goldenrod;
+}
+
+/* div{
+    color: aliceblue;
+} */
+
+/* section div{
+ 
+     background-color: brown;
+     color: rgb(212, 226, 238);
+} 
+
+section>div{
+
+    background-color: rgb(104, 69, 69);
+    color: aliceblue;
+
+}
+
+section+div{
+
+    background-color: cadetblue;
+}
+
+div+div{
+
+    background-color: burlywood;
+}
+
+section h1{
+    color: rgb(16, 164, 78);
+} */
+
+section~div{
+
+    color: bisque;
+    background-color: black;
+}

@@ -1,0 +1,34 @@
+body{
+
+    background-color: rgb(231, 182, 117);
+    background-image: url("https://pxwall.com/wp-content/uploads/2019/04/4K-Nature-Desktop-Wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 750px ;
+    background-position: fixed;
+    
+    /* background-attachment: fixed; */
+   
+}
+
+h1{
+
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+main{
+
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    
+   
+    background-image:url("https://th.bing.com/th/id/OIP.SsVkfFpYfo2UMJ7_RwY6nAHaJQ?rs=1&pid=ImgDetMain"),url("https://th.bing.com/th/id/R.9b81663a3934071f8de09681cec0684e?rik=DEV7m%2bUbPpmL2A&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-Nature-Background-Images-4523x2590.jpg&ehk=XxAKNdbLqeV84jakVaOYrmZWai83%2bRlxqGS7WF2x2%2bo%3d&risl=1&pid=ImgRaw&r=0"),
+ url("https://th.bing.com/th/id/OIP.IXj0Qe_OvvEnRlk7s7ESXAHaEZ?rs=1&pid=ImgDetMain"),url("https://th.bing.com/th/id/OIP.Oc-T0TUXo2iuOBfQfLSbDAHaEo?rs=1&pid=ImgDetMain"); 
+
+     background-repeat:no-repeat;
+     background-size: 300px 300px;
+     background-position: 100px 50px ,500px 50px,900px 50px,1200px 50px;
+
+}
